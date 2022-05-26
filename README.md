@@ -12,19 +12,19 @@
 #### ● Where are customers with a high lifetime value based?
 #### ● Do sales figures vary between geographic regions?
 
-### Some  basic SQL querries 
+## Basic SQL querries 
 #### SELECT rental_duration AS "rented for (in days)", COUNT(*) AS "number of films"
 #### FROM  film
 #### GROUP BY 1
 #### ORDER BY 2
 
-### Basic SQL querries
+## Basic SQL querries
 #### SELECT film_id,
 #### title
 #### FROM film
  ## check the result https://drive.google.com/file/d/1IH7oYScP49Qlp8dLoMpE0qwd6oK9V4Kg/view?usp=sharing
 
-### Basic SQL querries
+## Basic SQL querries
 #### SELECT title,
 #### release_year,
 #### rental_rate
@@ -34,7 +34,7 @@
 #### rental_rate DESC
 ## check the result https://drive.google.com/file/d/105SnB7rCwEudOttbFaOoaZRq_rCudtiK/view?usp=sharing
 
-### Bit more advanced querries
+## Bit more advanced querries
 #### SELECT film_id,
 #### title,
 #### description
@@ -43,7 +43,7 @@
 #### AND rental_rate >2.99
 ## check the result https://drive.google.com/file/d/1Gzd7TxxZ_F3CQQOxMhxt0ld6KqmGwoSk/view?usp=sharing
 
-### Bit more advanced querries
+## Bit more advanced querries
 #### SELECT rating
 #### COUNT(film_id) AS count_of_movies,
 #### AVG(rental_rate) AS average_rental_rate,
@@ -54,7 +54,7 @@
 #### GROUP BY rating
 ## check the result [https://drive.google.com/file/d/1SqFsP3yH_6nPhU7nIKJtWkLDNcYmxGNV/view?usp=sharing]
 
-### SQL Joints
+## SQL Joints
 #### SELECT D.country,
 #### COUNT(customer_id) AS customer_count
 #### FROM customer A
@@ -66,7 +66,7 @@
 #### LIMIT 10
 ## check the result https://drive.google.com/file/d/1iUiYlLmVUQunLres_ZqhUXidYBBrlHxX/view?usp=sharing
 
-### Bit more advanced Joints
+## Bit more advanced Joints
 #### SELECT country.country,
 #### COUNT (DISTINCT customer.customer_id) AS all_customer_count,
 #### COUNT (DISTINCT country.country) AS top_costumer_count
