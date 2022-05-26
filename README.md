@@ -123,3 +123,5 @@
 #### GROUP BY country.country
 #### ORDER BY COUNT (country.country) DESC
 ### check the result https://drive.google.com/file/d/1uLrcFcDYGOMquMMm6uog5sIn9_noq3k8/view?usp=sharing
+# Link to My presentation
+## https://coach-courses-us.s3.amazonaws.com/exercises/1054/46313/f475c86809fac07a65d6aa198ae944f9/bussines-analysis.pdf
