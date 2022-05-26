@@ -1,0 +1,5 @@
+# Some SQL querries 
+SELECT rental_duration AS "rented for (in days)", COUNT(*) AS "number of films"
+FROM  film
+GROUP BY 1
+ORDER BY 2
