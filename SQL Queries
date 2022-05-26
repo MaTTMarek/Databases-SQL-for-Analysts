@@ -8,3 +8,4 @@ SELECT film_id,
 title
 FROM film
 ### check the result [https://drive.google.com/file/d/1IH7oYScP49Qlp8dLoMpE0qwd6oK9V4Kg/view?usp=sharing]
+## Basic SQL querries
