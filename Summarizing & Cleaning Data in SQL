@@ -1,0 +1,9 @@
+SELECT rating
+COUNT(film_id) AS count_of_movies,
+AVG(rental_rate) AS average_rental_rate,
+MIN(rental_duration) AS min_rental_duration,
+MAX(rental_duration) AS max_rental_duration
+FROM film
+WHERE rating='PG' OR rating='G'
+GROUP BY rating
+check the result [https://drive.google.com/file/d/1SqFsP3yH_6nPhU7nIKJtWkLDNcYmxGNV/view?usp=sharing]
