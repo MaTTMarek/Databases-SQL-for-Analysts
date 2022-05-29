@@ -1,0 +1,28 @@
+SELECT rental_duration AS "rented for (in days)", COUNT(*) AS "number of films"
+FROM  film
+ GROUP BY 1
+ORDER BY 2
+
+SELECT film_id,
+title
+FROM film
+check the result https://drive.google.com/file/d/1IH7oYScP49Qlp8dLoMpE0qwd6oK9V4Kg/view?usp=sharing
+
+
+SELECT title,
+release_year,
+rental_rate
+FROM film
+ORDER BY title,
+release_year,
+rental_rate DESC
+check the result https://drive.google.com/file/d/105SnB7rCwEudOttbFaOoaZRq_rCudtiK/view?usp=sharing
+
+SELECT title,
+rating,
+release_year,
+rental_rate
+FROM film
+WHERE rental_rate < 
+(SELECT AVG(amount)
+FROM payment)
